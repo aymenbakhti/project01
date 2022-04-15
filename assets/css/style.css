@@ -119,12 +119,12 @@ body {
   .right {
     background-color: white;
     width: 400px;
-    padding: 200px 20px 20px 20px;
+    padding: 40px;
     border-inline-start: 1px solid #eee;
     
  }
  input[type=text] {
-    width: 130px;
+    width: 100%;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
@@ -133,14 +133,9 @@ body {
     background-image: url('searchicon.png');
     background-position: 10px 10px; 
     background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
+    padding: 12px 18px;
   }
   
-  input[type=text]:focus {
-    width: 100%;
-  }
   .aymen1 {
       width: 200px;
       border-radius: 100px;
@@ -171,7 +166,12 @@ body {
       justify-content: center;
       align-items: center;
       border-radius: 100%;
+      transition: 75ms;
   }
+
+  .social-item:hover {
+    opacity: 0.8;
+}
 
   .facebook {
       background-color: #3B5998;
