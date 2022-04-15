@@ -1,10 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
 .container {
     display: flex;
     flex-direction: row;
-    height: 800px;
-    align-self: stretch;
-    padding: 20px;
-    background-color: #ccc;
+    height: 100%;
+    overflow: hidden;
     
 }
 .left {
@@ -51,13 +64,13 @@
    text-align: justify;
     padding: 20px;
     font-size: large;
-    
+    overflow: auto;
 }
 
 .img {
-    width: 1000px;
+    width: 100%;
     height: 350px;
-    align-content: center;
+    object-fit: cover;
 }
 .text {
     padding-right: 150px;
@@ -101,10 +114,13 @@
     opacity: 1;
     right: 0;
   }
+
+
   .right {
     background-color: white;
     width: 400px;
     padding: 200px 20px 20px 20px;
+    border-inline-start: 1px solid #eee;
     
  }
  input[type=text] {
