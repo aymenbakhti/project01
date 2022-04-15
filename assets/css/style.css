@@ -1,0 +1,150 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 800px;
+    align-self: stretch;
+    padding: 20px;
+    background-color: #ccc;
+    
+}
+.left {
+    background-color: rgb(209, 209, 218);
+    width: 400px;
+    
+    display: flex;
+    flex-direction: column;
+}
+.logo {
+ font-size: xx-large;
+ font-style: italic;
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: bold;
+ text-align: center;
+ padding-top: 20px;
+}
+.def {
+    padding: 10px 50px;
+    text-align: center;
+    font-size: large;
+}
+.sidenav {
+    display: flex;
+    flex-direction: column;
+}
+.sidenav a {
+    padding: 15px 15px 10px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #0e0c0c;
+    display: block;
+}
+.sidenav a:hover {
+    color: #f1f1f1;
+ }
+.footer {
+    padding: 40px;
+    text-align: center;
+}
+.main {
+    background-color: white;
+    width: 1200px;
+   text-align: justify;
+    padding: 20px;
+    font-size: large;
+    
+}
+
+.img {
+    width: 1000px;
+    height: 350px;
+    align-content: center;
+}
+.text {
+    padding-right: 150px;
+}
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #bdc4c2;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    font-size: large;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .right {
+    background-color: white;
+    width: 400px;
+    padding: 200px 20px 20px 20px;
+    
+ }
+ input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=text]:focus {
+    width: 100%;
+  }
+  .aymen1 {
+      width: 200px;
+      border-radius: 100px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+
+  }
+  .abtme {
+      text-align: center;
+      font-size: large;
+  }
+  .span {
+      display: flex;
+      flex-direction: row;
+
+  }
+  .socialm  {
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+
+  }
